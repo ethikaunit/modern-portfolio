@@ -106,7 +106,7 @@ const About = () => {
 
                         <div style={{ marginTop: '2rem' }}>
                             <a href="#contact" className="btn btn-primary" style={{ marginRight: '1rem' }}>Connect Wallet</a>
-                            <a href="/assets/resume.pdf" className="btn btn-outline" download>Download CV</a>
+                            <a href="https://drive.google.com/file/d/1kRJaPQss5ZkSBKezrpReUJPhK5Cza4UT/" className="btn btn-outline" download>Download CV</a>
                         </div>
                     </motion.div>
 
