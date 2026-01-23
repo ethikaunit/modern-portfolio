@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Linkedin, Github, Twitter } from 'lucide-react';
+import { MapPin, Phone, Mail, Linkedin, Github, Twitter, WrapText } from 'lucide-react';
 
 const Contact = () => {
     return (
@@ -21,13 +21,13 @@ const Contact = () => {
                 <div className="glass" style={{ padding: '3rem' }}>
                     <div className="row" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem' }}>
 
-                        <div className="contact-form">
+                        <div className="contact-form" style={{ width: '100%' }}>
                             <h5 className="title-left" style={{ fontSize: '2rem', marginBottom: '2rem', position: 'relative' }}>
                                 Send Message
                                 <span style={{ content: '', position: 'absolute', left: 0, bottom: -10, width: '40px', height: '3px', background: 'var(--accent-color)' }}></span>
                             </h5>
 
-                            <form>
+                            <form style={{ position: 'relative', width: '100%' }}>
                                 <div style={{ marginBottom: '1.5rem' }}>
                                     <input type="text" placeholder="Your Name" style={{ position: 'relative', width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }} />
                                 </div>
@@ -46,27 +46,27 @@ const Contact = () => {
                             </form>
                         </div>
 
-                        <div className="contact-info">
+                        <div className="contact-info" style={{ width: '100%' }} >
                             <h5 className="title-left" style={{ fontSize: '2rem', marginBottom: '2rem', position: 'relative' }}>
                                 Get in Touch
                                 <span style={{ content: '', position: 'absolute', left: 0, bottom: -10, width: '40px', height: '3px', background: 'var(--accent-color)' }}></span>
                             </h5>
-                            <p style={{ color: '#94a3b8', lineHeight: '1.8', marginBottom: '2rem' }}>
+                            <p style={{ color: '#94a3b8', lineHeight: '1.8', marginBottom: '2rem', overflow: 'wrap' }}>
                                 Let's Connect! I'm eager to hear from you and explore opportunities for collaboration. Whether you have a project in mind, a question to ask, or just want to say hello, don't hesitate to reach out.
                             </p>
 
                             <ul style={{ marginBottom: '2rem' }}>
                                 <li style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem', color: '#94a3b8' }}>
-                                    <MapPin style={{ marginRight: '1rem', color: 'var(--accent-color)' }} />
+                                    <MapPin style={{ marginRight: '1rem', color: 'var(--accent-color)', overflow: 'wrap' }} />
                                     Sozhanoor, L.Endathur,Uthiramerur , Tamil Nadu 603406
                                 </li>
                                 <li style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem', color: '#94a3b8' }}>
-                                    <Phone style={{ marginRight: '1rem', color: 'var(--accent-color)' }} />
+                                    <Phone style={{ marginRight: '1rem', color: 'var(--accent-color)', overflow: 'wrap' }} />
                                     (+91) 9363509182
                                 </li>
                                 <li style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem', color: '#94a3b8' }}>
-                                    <Mail style={{ marginRight: '1rem', color: 'var(--accent-color)' }} />
-                                    sathi2000vel@gmail.com
+                                    <Mail style={{ marginRight: '1rem', color: 'var(--accent-color)', overflow: 'wrap' }} />
+                                    sakthilinux1@gmail.com
                                 </li>
                             </ul>
 
