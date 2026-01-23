@@ -29,13 +29,13 @@ const Contact = () => {
 
                             <form>
                                 <div style={{ marginBottom: '1.5rem' }}>
-                                    <input type="text" placeholder="Your Name" style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }} />
+                                    <input type="text" placeholder="Your Name" style={{ position: 'relative', width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }} />
                                 </div>
                                 <div style={{ marginBottom: '1.5rem' }}>
-                                    <input type="email" placeholder="Your Email" style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }} />
+                                    <input type="email" placeholder="Your Email" style={{ position: 'relative', width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }} />
                                 </div>
                                 <div style={{ marginBottom: '1.5rem' }}>
-                                    <input type="text" placeholder="Subject" style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }} />
+                                    <input type="text" placeholder="Subject" style={{ position: 'relative', width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }} />
                                 </div>
                                 <div style={{ marginBottom: '1.5rem' }}>
                                     <textarea placeholder="Message" rows="5" style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#fff', borderRadius: '5px' }}></textarea>
