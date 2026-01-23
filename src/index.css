@@ -158,7 +158,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 .glow-text {
@@ -209,4 +209,27 @@ a {
   z-index: -1;
   filter: blur(20px);
   opacity: 0.5;
+}
+
+/* Responsive Navigation Styles */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block !important;
+    z-index: 1100;
+    position: relative;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-toggle {
+    display: none !important;
+  }
+
+  .nav-menu {
+    display: block !important;
+  }
 }
