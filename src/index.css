@@ -211,7 +211,18 @@ a {
   opacity: 0.5;
 }
 
-/* Responsive Navigation Styles */
+/* Contact Section Styles */
+.contact-container {
+  padding: 3rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+/* Responsive Navigation & Contact Styles */
 @media (max-width: 768px) {
   .nav-menu {
     display: none;
@@ -221,6 +232,15 @@ a {
     display: block !important;
     z-index: 1100;
     position: relative;
+  }
+
+  .contact-container {
+    padding: 1.5rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
 

@@ -18,8 +18,8 @@ const Contact = () => {
             }}></div>
 
             <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-                <div className="glass" style={{ padding: '3rem' }}>
-                    <div className="row" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem' }}>
+                <div className="glass contact-container">
+                    <div className="contact-grid">
 
                         <div className="contact-form" style={{ width: '100%' }}>
                             <h5 className="title-left" style={{ fontSize: '2rem', marginBottom: '2rem', position: 'relative' }}>
